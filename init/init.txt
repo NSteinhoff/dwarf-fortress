@@ -118,7 +118,7 @@ increasing grid size by 10 units each time you zoom.
 
 Change this to NO if you don't want to have the mouse involved at all.
 
-[MOUSE:YES]
+[MOUSE:NO]
 
 Change this to YES if you'd like to use a BMP for the mouse cursor.  The image currently lags when the game is lagging however.
 

@@ -10,7 +10,7 @@ Use these to control the automatic saving behavior in the dwarf fortress mode of
 
 [AUTOSAVE:SEASONAL]
 [AUTOBACKUP:NO]
-[AUTOSAVE_PAUSE:NO]
+[AUTOSAVE_PAUSE:YES]
 
 Set this to YES if you want it to save the game when you start a new fortress.  If AUTOBACKUP above is set to YES, it will also create a copy of this new save.
 
@@ -277,7 +277,7 @@ get rid of the outside ** by setting this to NO.
 
 Set this to YES to display fluids as numbers indicating depth.
 
-[SHOW_FLOW_AMOUNTS:NO]
+[SHOW_FLOW_AMOUNTS:YES]
 
 If you'd prefer to leave the history behind every engraving for your adventurers to discover, then set this to NO.
 
