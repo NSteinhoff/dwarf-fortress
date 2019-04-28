@@ -20,13 +20,13 @@ Change this to skip the wonderful intro movies.
 
 This lets you set the starting windowed/fullscreen setting.  Can be YES, NO or PROMPT.
 
-[WINDOWED:NO]
+[WINDOWED:YES]
 
 This is the size and font for windowed mode.  Changing to the 800x600 font might make you happier.
 If set below 256x256 it specifies the grid size instead, with a minimum of 80x25.
 
-[WINDOWEDX:1440]
-[WINDOWEDY:900]
+[WINDOWEDX:1920]
+[WINDOWEDY:1080]
 [FONT:taffer_20x20.png]
 
 You may disable window resizing if you wish.
@@ -126,11 +126,11 @@ Change this to YES if you'd like to use a BMP for the mouse cursor.  The image c
 
 This controls the number of milliseconds that must pass before a held key sends an initial repeat press to the game.  You might need to adjust this.
 
-[KEY_HOLD_MS:150]
+[KEY_HOLD_MS:250]
 
 This controls the number of milliseconds that must pass before a held key sends a repeat press to the game after the repeat process has begun.
 
-[KEY_REPEAT_MS:75]
+[KEY_REPEAT_MS:50]
 
 If you set KEY_REPEAT_ACCEL_LIMIT above one, then after KEY_REPEAT_ACCEL_START repetitions the repetition delay will smoothly decrease until repetition is this number of times faster than at the start.
 
